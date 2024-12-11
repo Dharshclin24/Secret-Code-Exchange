@@ -12,19 +12,19 @@ img {
 
 @import url("https://fonts.googleapis.com/css2?family=Sevillana&display=swap");
 body {
-  background-color: linear-gradient(#50c7c7, #1611b8);
+  background-color: #11b8af;
 }
-
 main {
   background-image: url("https://img.freepik.com/premium-photo/3d-cartoon-mother-daughter-hugging-each-others-mothers-day_1052748-906.jpg?w=740");
   background-size: cover;
+  background-color: #11b8af;
   font-family: "Arial", sans-serif;
   margin: 0;
   padding: 0;
 }
 
 h2 {
-  font-family: italic;
+  font-family: Sevillana;
   color: #11b8af;
   font-size: 46px;
   font-weight: bold;
@@ -45,6 +45,12 @@ li {
   font-family: Sevillana;
   padding: 5px;
   color: #1611b8;
+}
+.money {
+  width: 200px;
+
+  border: 3px black solid;
+  border-radius: 3fr;
 }
 footer {
   background-color: #0077b6;
